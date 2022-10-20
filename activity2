@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+   mark{
+      background-color: yellow;
+      color: red;
+</style>   
+</head>
+
+<body>
+   <ol>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+   </ol>
+   <ul>
+      <li>BLack</li>
+      <li>white</li>
+      <li>grey</li>
+   </ul>
+   <p><mark>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores dignissimos quo ab suscipit! Dolores quasi quia, nulla fugit amet porro maxime. Vitae laudantium magni quisquam, inventore possimus commodi eos voluptatem!</mark></p>
+   <img src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.commonsensemedia.org%2Fmovie-reviews%2Finterstellar&psig=AOvVaw1w2IX0N8kAZsk_RhpVp9bK&ust=1666345103579000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCLj47bDB7voCFQAAAAAdAAAAABAZ" alt="INTERSTELLAR IMAGE">
+   <b>This should be done in 15 minutes</b>
+   <i>Author: WT</i>
+   <p>Paragraph tag is for wrting plain text in the form of paragraph</p>
+   <blockquote>Block quote tag is for letting user know that the particular text is important in some way it aligns the text in particular way</blockquote>
+   </body>
+</html>
