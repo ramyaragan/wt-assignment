@@ -25,5 +25,5 @@
    <i>Author: WT</i>
    <p>Paragraph tag is for wrting plain text in the form of paragraph</p>
    <blockquote>Block quote tag is for letting user know that the particular text is important in some way it aligns the text in particular way</blockquote>
-   </body>
+</body>
 </html>
