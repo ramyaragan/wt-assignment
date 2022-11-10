@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOOKS TO READ</title>
+    <style>
+    table, th, td {
+        border: 1px solid white;
+        border-collapse: collapse;
+      }
+      th, td {
+        background-color: #96D4D4;
+      }
+    </style>
+       
+  </head>
+  <body>
+    <header>
+      <div>BOOKS</div>
+      <nav>
+        <ul>
+          <li><a href="GENRE">GENRE</a></li>
+          <li><a href="LANGUAGE">LANGUAGE</a></li>
+          <li><a href="SUBSCRIBE">SUBSCRIBE</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <marquee>
+      <h1><i>LOOKING FOR WHAT TO READ?</i></h1>
+      
+      <img
+        src="https://assets.entrepreneur.com/content/3x2/2000/20190311153646-GettyImages-932272022.jpeg?crop=4:3"
+        alt="BOOKS"
+        width="600"
+      />
+      </marquee>
+      <p><mark>
+        When you make it a good practice to read every day, you will become addicxted to it.
+        Reading can helpyou develop cognitively and offer a great impact on people and lead you down the correct path in life.
+        The more time you spend reading the more you will fall in love with it.Reading can help improve your vocabulary and linguistic skills.Reading can help you unwind and destress.
+      </mark></p>
+      <h2 id="GENRE">Which genres of books would you like to read?</h2>
+      <ol>
+        <li><input type="checkbox" /> Classics</li>
+        <li><input type="checkbox" /> Coming of Age</li>
+        <li><input type="checkbox" /> Thriller</li>
+        <li><input type="checkbox" /> Self Help</li>
+        <li><input type="checkbox" /> Autobiography</li>
+        <li><input type="checkbox" /> Biography</li>
+      </ol>
+      <h2 id="LANGUAGE">Select the language(s) as per your preference</h2>
+      <ul>
+        <li><input type="radio" /> English</li>
+        <li><input type="radio" /> Hindi</li>
+        <li><input type="radio" /> Kannada</li>
+        <li><input type="radio" /> French</li>
+        <li><input type="radio" /> Japanese</li>
+      </ul>
+      <dl>
+        <dt>"A book is a gift you can open again and again"</dt>
+        <dd>Garrison Kellior</dd>
+        <dt>Reading is the gateway skill that makes all other learning  possible</dt>
+        <dd>Barack Obama</dd>
+      </dl>
+      <table>
+        <caption>BOOK DETAILS</caption>
+        <tr>
+            <th>Name of the book</th>
+            <td>Wings of fire</td>
+            <td>Metamorphosis</td>
+        </tr>
+        <tr>
+          <th rowspan="2">Publication </th>
+          <td>Penquin Publishers</td>
+          <td>Fingerprint Publishers </td>
+        </tr>
+        <tr>    
+      </table>
+
+    </main>
+    <hr />
+    <footer>
+      <h3 id="subscribe"><b>To Subscribe For personalised Book recomentations drop your Email ID</b></h3>
+      <form onsubmit="alert('Subscribed')">
+        <input type="text" placeholder="Enter Email Address" />
+        <button>Submit</button>
+      </form>
+      <br />
+    </footer>
+  </body>
+</html>
